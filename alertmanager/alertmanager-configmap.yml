@@ -17,6 +17,6 @@ data:
     - name: slack_receiver
       slack_configs:
       - send_resolved: true
-        username: '<SLACK_USER>'
-        api_url: '<APP_URL>'
-        channel: '#<CHANNEL>'
+        username: 'prometheus'
+        api_url: 'https://hooks.slack.com/services/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'
+        channel: '#alerts'
